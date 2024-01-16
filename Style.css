@@ -1,0 +1,42 @@
+body{
+     background: url('loading.svg') no-repeat;
+     background-size:center;
+     Font-Family:Arial;
+     color:Black;
+     background-repeat:no-repeat;
+     background-position:center;
+ </div>
+}
+ul{
+     margin:0px;
+     padding:0px;
+     list-style:none;
+     float:left;
+}
+ul li{
+     float:left;
+     width:158px;
+     background-color:Green;
+     opacity:.8;
+     line-height:60px;
+     text-align:center;
+     Font-size:20px;
+     margin-right:5px;
+     Font-Family:algerian;
+     justify;
+}
+ul li a{
+     text-decoration:none;
+     color:red;
+     display:green;
+}
+ul li a:hover{
+     background-color:yellow;
+     display:block;
+}
+ul li ul li{
+     display:none;
+}
+ul li:hover ul li{
+     display:block;
+}
