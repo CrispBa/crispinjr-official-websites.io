@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f099;
+    background: url('rainy.gif') no-repeat;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#game-container {
+    background: url('Neon4.gif') no-repeat;
+    background-size: cover;
+    opacity:90px;
+    border: 5px solid #990;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    font-size: 19px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    
+    color: white;
+}
+
+button:disabled {
+    background-color: #aaa;
+}
+
+#click-button {
+    display: none;
+    color: gold
+}
